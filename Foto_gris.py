@@ -2,6 +2,8 @@
 # Programa que pasa a escala de grises una foto
 
 import cv2
+a = 2
+
 cv2.namedWindow("Imagen_1") #le damos nombre a la ventana
 image = cv2.imread("monster.png") #leemos una imagen desde el disco (tiene que existir)
 ancho,alto,canales = image.shape #propiedades de la imagen
