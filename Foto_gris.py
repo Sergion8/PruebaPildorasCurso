@@ -5,6 +5,7 @@ import cv2
 
 #Modificado prueba Git
 a = 2
+b = 3
 #Fin pruebas Git
 
 cv2.namedWindow("Imagen_1") #le damos nombre a la ventana
