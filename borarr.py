@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 
+#Texto añadido desde git hub
 img = cv2.imread('objetos.jpg',0)#Imagen en escala de grises
 cimg = cv2.cvtColor(img,cv2.COLOR_GRAY2BGR)#Para poder pintar en colores encima
 
